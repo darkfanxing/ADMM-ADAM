@@ -1,4 +1,3 @@
-import numpy as np
 from numpy import ndarray, zeros, reshape, transpose, where, einsum, eye, dot
 from numpy.linalg import inv, eigh
 from scipy.sparse import csc_matrix, block_diag
