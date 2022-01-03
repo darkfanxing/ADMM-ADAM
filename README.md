@@ -46,9 +46,11 @@ ADMM-ADAM workflow as follows:
 
 
     so convex optimization problem can be represented as follows:
+    
         ![](https://i.imgur.com/OOxySYH.png)
 
-    - the meaning of F-norm is:
+    the meaning of F-norm is:
+    
         ![](https://i.imgur.com/DwhQawt.png)
     
     
