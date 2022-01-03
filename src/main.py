@@ -1,5 +1,5 @@
 from model import ADMMADAM
-from utils import load_data, adjust_image, add_image_mask
+from utils import load_data, adjust_image
 from numpy import expand_dims
 import cv2
 
