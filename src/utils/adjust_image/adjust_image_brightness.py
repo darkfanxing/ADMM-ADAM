@@ -1,6 +1,7 @@
 from numpy import percentile, zeros
 from cv2 import normalize, NORM_MINMAX
 
+# Reference: https://blog.csdn.net/weixin_44517301/article/details/102710979
 def adjust_image_brightness(image):
     max_percentile_pixel = percentile(image, 99)
     min_percentile_pixel = percentile(image, 1)
