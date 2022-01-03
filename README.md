@@ -3,7 +3,7 @@
     - [ADMM-ADAM workflow](#admm-adam-workflow)
 - [Project Setup](#project-setup)
 - [How To Restore Images In this Project](#how-to-restore-images-in-this-project)
-
+- [Reference](#reference)
 ## Project Description
 ADMM-ADAM is a powerful hyperspectral image (HSI) restoration framework designed by Dr. Chia-Hsiang in 2021 ([Journal Link](https://ieeexplore.ieee.org/document/9546991)). It's based on "convex optimization", "feature extractor" and "ADMM optimizer" to make a high reducibility image.
 
@@ -102,3 +102,6 @@ pipenv install
 ```console
 python src/main.py
 ```
+
+## Reference
+Lin, Chia-Hsiang, Yen-Cheng Lin, and Po-Wei Tang. "ADMM-ADAM: A New Inverse Imaging Framework Blending the Advantages of Convex Optimization and Deep Learning." IEEE Transactions on Geoscience and Remote Sensing (2021).
