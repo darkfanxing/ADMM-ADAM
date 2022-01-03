@@ -18,8 +18,7 @@ ADMM-ADAM workflow as follows:
     ![](https://i.imgur.com/92szBja.png)
   
     where, 
-    - X:![CodeCogsEqn](https://user-images.githubusercontent.com/36408071/147899451-7a04cab2-e06c-474f-bcf6-1f6aee48faa6.png)
-
+    - X:
         - ![](https://i.imgur.com/4IWOC7j.png) be an M-band hyperspectral (target) image with L pixels
     - Y:
         - ![](https://i.imgur.com/ROvSTS1.png) be the observed image, meaning that some of its entries are missing
