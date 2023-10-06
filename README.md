@@ -94,6 +94,7 @@ ADMM-ADAM workflow as follows:
 To avoid Python package version conflicts, the project use pipenv (Python vitural environment) to install Python packages.
 
 ```console
+rm Pipfile
 pip install pipenv
 pipenv shell
 pipenv install
